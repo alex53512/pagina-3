@@ -1,3 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    background: #222; /* Color fijo */
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MENÚ */
+.menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #00c3ff; /* NO cambia de fondo */
+}
+
+/* Botón Registrarse (pequeño) */
+.btn-registrarse {
+    width: 28px;
+    height: 28px;
+    background: #00c3ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+}
+
+/* PERFIL MENÚ */
+.menu-perfil {
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    background: #1b1b7c;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu-perfil p {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-perfil p:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.oculto {
+    display: none;
+}
+
+/* SECCIONES */
+.vista {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* FORMULARIO REGISTRO MÁS PEQUEÑO */
+#seccion-registro .form-contacto {
+    width: 35%;
+    min-width: 260px;
+    padding: 20px;
+}
+
+.form-contacto input,
+.form-contacto textarea,
+.form-contacto button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+.form-contacto button {
+    background: #00c3ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
 /* Contenedor general */
 .contenido {
     width: 100%;                 /* ocupa toda la pantalla */
